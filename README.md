@@ -82,7 +82,7 @@ Link: [Google][google link]
 
 ### 외부 링크
 사용문법: [Title][link]
-적용예: [Google][https://google.com, "google link"
+적용예: [Google][https://google.com, "google link"]
 
 ### 자동연결
 일반적인 URL 혹은 이메일 주소인 경우 적절한 형식으로 링크를 형성한다.
@@ -90,11 +90,11 @@ Link: [Google][google link]
 * 이메일링크: <adress@example.com>
 
 # 3.7 강조
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
+- *single asterisks*
+- _single underscores_
+- **double asterisks**
+- __double underscores__
+- ~~cancelline~~
 
 # 3.8 이미지
 ![Alt text](/path/to/img.jpg)
