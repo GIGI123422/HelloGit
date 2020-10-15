@@ -76,9 +76,8 @@ public class BootspringBootApplication{
 - [id]: URL "Optional Title here"
 
 //code
-Link: [Google][google link]
+Link: ["Go google"][https://google.com]
 
-[googlelink]: https://google.com "Go google"
 
 ### 외부 링크
 - 사용문법: [Title][link]
