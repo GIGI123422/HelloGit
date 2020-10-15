@@ -18,8 +18,8 @@ This is an H2
 # 3.2 BlockQuote
 ### 블록인용 문자
 > This is a afirst blockqute.
->     > This is a afirst blockqute.
->     >     > This is a afirst blockqute.
+> > This is a afirst blockqute.
+> > > This is a afirst blockqute.
 
 # 3.3 목록
 ### 순서있는 목록(내림차순으로 자동정렬)
@@ -43,7 +43,7 @@ This is an H2
       + 4단계
       
 # 3.4 코드블럭
-### 방법1: <pre><code>{code}</code></pre>
+### 방법1: "<pre><code>{code}</code></pre>"
 <pre>
 <code>
 public class BootspringBootApplication{
@@ -72,8 +72,8 @@ public class BootspringBootApplication{
 ### 결과
 # 3.6 링크
 ### 참조링크
-[link keyword][id]
-[id]: URL "Optional Title here"
+- [link keyword][id]
+- [id]: URL "Optional Title here"
 
 //code
 Link: [Google][google link]
@@ -81,8 +81,8 @@ Link: [Google][google link]
 [googlelink]: https://google.com "Go google"
 
 ### 외부 링크
-사용문법: [Title][link]
-적용예: [Google][https://google.com, "google link"]
+- 사용문법: [Title][link]
+- 적용예: [Google][https://google.com, "google link"]
 
 ### 자동연결
 일반적인 URL 혹은 이메일 주소인 경우 적절한 형식으로 링크를 형성한다.
@@ -97,7 +97,7 @@ Link: [Google][google link]
 - ~~cancelline~~
 
 # 3.8 이미지
-![Alt text](/path/to/img.jpg)
-![Alt text](/path/to/img.jpg "Optional title")
+- ![Alt text](/path/to/img.jpg)
+- ![Alt text](/path/to/img.jpg "Optional title")
 
 # 3.9 이미지 (GitHub)
